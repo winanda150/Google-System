@@ -24,4 +24,4 @@ For practice developing a website in the Front-End field.
 
 # Note
 
-<p align="justify">Comingsoon</p>
+<p align="justify">Still being repaired and display adjustments</p>
