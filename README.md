@@ -24,4 +24,4 @@ For practice developing a website in the Front-End field.
 
 # Note
 
-<p align="justify">Still being repaired and display adjustments</p>
+<p align="justify">Front-end practice project: different login system views for desktop and mobile. Built to practice responsive web design, layout, and simple interactions using HTML, CSS, and JavaScript. If there are any problems with the website or any suggestions, please contact me via email or social media.</p>
