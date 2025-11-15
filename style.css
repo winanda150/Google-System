@@ -1,0 +1,774 @@
+/* Google Desktop and Mobile View Website */
+
+/* Project 2 */
+
+/* Google Login System. */
+/* Created By WinandaDev on 05 November 2025. */
+/* For practice developing a website in the Front-End field. */
+/* ===================================================== */
+
+/* Reset CSS dan Atur Tampilan Dasar */
+html, body {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f9;
+    overflow: hidden;
+}
+
+/* Konten Tampilan Desktop */
+.Border1 {
+    border: 1px solid #ffffff;
+    width: 970px;
+    height: 410px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 24px 0 rgba(0,0,0,0.18), 0 1.5px 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+.Google-Desktop img {
+    margin: 30px;
+    width: 55px;
+    height: 55px;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    box-sizing: border-box;
+}
+
+.Login {
+    font-size: 30px;
+    font-family: "Poppins";
+    color: #000000;
+    margin-left: 37px;
+    margin-top: -19px;
+    box-sizing: border-box;
+}
+
+.Akun {
+    font-size: 15px;
+    font-family: "Poppins";
+    color: #000000;
+    margin-left: 37px;
+    margin-top: -15px;
+    box-sizing: border-box;
+}
+
+.Formulir {
+    margin-top: -110px;
+    margin-left: 510px;
+    margin-right: auto;
+    margin-bottom: auto;
+    box-sizing: border-box;
+}
+
+.Formulir form input[type="email"] {
+    width: 420px;
+    height: 58px;
+    font-family: "Poppins";
+    box-sizing: border-box;
+    border: 1px solid #72706e;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+
+.Formulir form input[type="email"]:focus {
+    border-color: #1976d2;
+    border: 2px solid #1976d2;
+    outline: none;
+}
+
+.Formulir form .Lupaemail {
+    display: inline-block;
+    margin-left: -3px;
+    margin-top: 3px;
+    padding: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins";
+    color: #1976d2;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.Lupaemail:hover {
+    background-color: rgba(114, 112, 110, 0.1);
+    border-radius: 10px;
+}
+
+.Tamu {
+    margin-top: 43px;
+    font-size: 12.8px;
+    font-family: "Poppins";
+    box-sizing: border-box;
+    color: #72706e;
+    box-sizing: border-box;
+}
+
+.Pelajari {
+    color: #1976d2;
+    margin-left: 3px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.Pelajari:hover {
+    text-decoration: underline;
+}
+
+.Buatakun {
+    display: inline-block;
+    color: #1976d2;
+    font-size: 15px;
+    font-family: "Poppins";
+    margin-top: 35px;
+    margin-left: 170px;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+}
+
+.Formulir form input[type="submit"] {
+    display: inline-block;
+    margin-left: 290px;
+    cursor: pointer;
+    display: flex;
+    margin-top: -45px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: 500;
+    width: 140px;
+    height: 40px;
+    background-color: #1976d2;
+    border: 1px solid #1976d2;
+    border-radius: 80px;
+    box-sizing: border-box;
+}
+
+.Formulir form input[type="submit"]:hover {
+    background-color: #1565c0;
+    border: 1px solid #1565c0;
+}
+
+.Footer1 {
+    margin-left: 730px;
+    margin-top: 63px;
+    font-size: 12px;
+    box-sizing: border-box;
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+}
+
+.Bantuan1 {
+    padding: 10px;
+    color: #72706e;
+    text-decoration: none;
+    font-family: "Poppins";
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+    box-sizing: border-box;
+}
+
+.Bantuan1:hover {
+    background-color: rgba(114, 112, 110, 0.1);
+    border-radius: 10px;
+}
+
+.Privasi1 {
+    padding: 10px;
+    color: #72706e;
+    text-decoration: none;
+    font-family: "Poppins";
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+    box-sizing: border-box;
+}
+
+.Privasi1:hover {
+    background-color: rgba(114, 112, 110, 0.1);
+    border-radius: 10px;
+}
+
+.Persyaratan1 {
+    padding: 10px;
+    color: #72706e;
+    text-decoration: none;
+    font-family: "Poppins";
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+    box-sizing: border-box;
+}
+
+.Persyaratan1:hover {
+    background-color: rgba(114, 112, 110, 0.1);
+    border-radius: 10px;
+}
+
+.language-selector1 {
+    position: fixed;
+    margin-top: -30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    font-family: "Poppins";
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+    box-sizing: border-box;
+}
+
+.language-selector1 select {
+    padding: 10px;
+    border: none;
+    background: transparent;
+    font-size: 13px;
+    color: #72706e;
+    outline: none;
+    cursor: pointer;
+    padding-right: 100px;
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+}
+
+.language-selector1 select:hover {
+    background-color: rgba(114, 112, 110, 0.1);
+    border-radius: 8px;
+}
+
+.language-selector1,
+.language-selector1:focus,
+.language-selector1:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+
+.Footer1,
+.Footer1:focus,
+.Footer1:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+
+.Lupaemail,
+.Lupaemail:focus,
+.Lupaemail:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+
+.Pelajari,
+.Pelajari:focus,
+.Pelajari:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+
+.Buatakun,
+.Buatakun:focus,
+.Buatakun:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+
+/* ============================================================= */
+
+/* Pesan Error Dekstop */
+
+.error-container1 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    min-height: 7px; /* agar ruang tetap ada walau error tidak muncul */
+    gap: 5px; /* jarak antara ikon dan teks */
+    height: 7px;
+}
+
+.Logoerror1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ff1100;
+    width: 14px;
+    height: 14px;
+    background-color: #ff1100;
+    border-radius: 50%;
+}
+
+.Logoerror1 p {
+    color: #ffffff;
+    font-size: 11px;
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+}
+
+.error-msg1 {
+    color: #d93025;
+    font-size: 14px;
+    font-family: "Poppins";
+    display: block;
+}
+
+/* Pesan Error Mobile */
+.error-container2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    min-height: 7px; /* agar ruang tetap ada walau error tidak muncul */
+    gap: 5px; /* jarak antara ikon dan teks */
+    height: 7px;
+}
+
+.Logoerror2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ff1100;
+    width: 14px;
+    height: 14px;
+    background-color: #ff1100;
+    border-radius: 50%;
+}
+
+.Logoerror2 p {
+    color: #ffffff;
+    font-size: 11px;
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+}
+
+.error-msg2 {
+    color: #d93025;
+    font-size: 12px;
+    font-family: "Poppins";
+    margin-top: -3px;
+    display: block;
+    height: 13px;
+}
+
+/* ============================================================= */
+
+/* Konten Tampilan Mobile */
+.Border2 {
+    border: 1px solid #ffffff;
+    width: 415px;
+    height: 430px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 24px 0 rgba(0,0,0,0.18), 0 1.5px 6px 0 rgba(0,0,0,0.15);
+}
+
+.Google-Mobile {
+    margin-top: 40px;
+    width: 95%;
+    max-width: 385px;
+    margin-left: 40%;
+    margin-right: auto;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.Google-Mobile span {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 20px;
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+}
+
+.Login2 {
+    font-family: "Poppins";
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.Formulir1 {
+    font-family: "Poppins";
+    font-weight: 500;
+    margin-left: -35px;
+    font-size: 14px;
+    margin-top: -8px;
+}
+
+.Formulir2 {
+    margin-top: 30px;
+    margin-bottom: auto;
+    margin-right: auto;
+    max-width: 385px;
+    margin-left: 25px;
+    box-sizing: border-box;
+}
+
+.Formulir2 form input[type="email"] {
+    height: 40px;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    border: 1px solid #72706e;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 13px;
+    width: 95%;
+    justify-content: center;
+}
+
+.Formulir2 form input[type="email"]:focus {
+    border-color: #1976d2;
+    border: 2px solid #1976d2;
+    outline: none;
+}
+
+.Lupaemail1 {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: -3px;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins";
+    color: #1976d2;
+    text-decoration: none;
+}
+
+.Lupaemail1:hover {
+    background-color: rgba(114, 112, 110, 0.1);
+    border-radius: 10px;
+}
+
+.Tamu1 {
+    margin-top: 43px;
+    font-size: 11.8px;
+    font-family: "Poppins";
+    color: #72706e;
+    box-sizing: border-box;
+    width: 95%;
+    max-width: 385px;
+    box-sizing: border-box;
+}
+
+.Pelajari1 {
+    color: #1976d2;
+    margin-left: 3px;
+    text-decoration: none;
+}
+
+.Pelajari1:hover {
+    text-decoration: underline;
+}
+
+.Buatakun1 {
+    display: inline-block;
+    cursor: pointer;
+    color: #1976d2;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    justify-content: left;
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+}
+
+.Formulir2 form input[type="submit"] {
+    display: flex;
+    cursor: pointer;
+    margin-top: -40px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    font-size: 13px;
+    padding: 3px;
+    max-width: 110px;
+    height: 30px;
+    border: 1px solid #1976d2;
+    background-color: #1976d2;
+    border-radius: 3px;
+    width: 95%;
+    margin-left: 65%;
+    margin-right: auto;
+    box-sizing: border-box;
+    justify-content: right;
+}
+
+.Formulir2 form input[type="submit"]:hover {
+    background-color: #1565c0;
+    border: 1px solid #1565c0;
+}
+
+.language-selector2 {
+    width: 95%;
+    max-width: 385px;
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: "Poppins";
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+}
+
+.language-selector2 select {
+    padding: 8px;
+    border: none;
+    background: transparent;
+    font-size: 13px;
+    color: #72706e;
+    outline: none;
+    cursor: pointer;
+    padding-right: 10px;
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+}
+
+.language-selector2 select:hover {
+    background-color: rgba(114, 112, 110, 0.1);
+    border-radius: 8px;
+}
+
+.Footer2 {
+    display: flex;
+    margin-top: -33px;
+    font-size: 12px;
+    width: 95%;
+    max-width: 385px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    justify-content: right;
+}
+
+.Bantuan2 {
+    padding: 8px;
+    color: #72706e;
+    text-decoration: none;
+    font-family: "Poppins";
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+}
+
+.Bantuan2:hover {
+    background-color: rgba(114, 112, 110, 0.1);
+    border-radius: 10px;
+}
+
+.Privasi2 {
+    padding: 8px;
+    color: #72706e;
+    text-decoration: none;
+    font-family: "Poppins";
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+}
+
+.Privasi2:hover {
+    background-color: rgba(114, 112, 110, 0.1);
+    border-radius: 10px;
+}
+
+.Persyaratan2 {
+    padding: 8px;
+    color: #72706e;
+    text-decoration: none;
+    font-family: "Poppins";
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge lama */
+    user-select: none;         /* Standar modern, termasuk Chrome */
+}
+
+.Persyaratan2:hover {
+    background-color: rgba(114, 112, 110, 0.1);
+    border-radius: 10px;
+}
+
+.language-selector2,
+.language-selector2:focus,
+.language-selector2:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+
+.Footer2,
+.Footer2:focus,
+.Footer2:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+
+.Lupaemail1,
+.Lupaemail1:focus,
+.Lupaemail1:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+
+.Pelajari1,
+.Pelajari1:focus,
+.Pelajari1:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+
+.Buatakun1,
+.Buatakun1:focus,
+.Buatakun1:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+
+/* Media Queries (Responsif Web Design) */
+
+/* HP kecil */
+@media screen and (max-width: 400px) {
+    .Google-Mobile {
+        width: 95%;
+        max-width: 385px; /* mengikuti lebar border */
+        margin-left: 35%;
+        margin-right: auto;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+
+    .Login2 {
+        width: 95%;
+        max-width: 385px; /* mengikuti lebar border */
+        margin-left: 5%;
+        margin-right: auto;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+
+    .Formulir1 {
+        width: 95%;
+        max-width: 385px; /* mengikuti lebar border */
+        margin-left: -9%;
+        margin-right: auto;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+
+    .Google-Mobile span {
+        font-size: 22.5px;
+    }
+
+    .Formulir2 {
+        max-width: 385px; /* mengikuti lebar border */
+        margin-left: 15px;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    .Formulir2 form input[type="email"] {
+        width: 95%;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+
+    .Tamu1 {
+        width: 95%;
+        max-width: 385px;
+        font-size: auto;
+        box-sizing: border-box;
+    }
+
+    .Pelajari1 {
+        width: 95%;
+        max-width: 385px;
+        box-sizing: border-box;
+    }
+
+    .Buatakun1 {
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        justify-content: left;
+    }
+
+    .Formulir2 form input[type="submit"] {
+        display: flex;
+        width: 95%;
+        margin-left: 63%;
+        margin-right: auto;
+        box-sizing: border-box;
+        justify-content: right;
+    }
+
+    .language-selector2 {
+        width: 95%;
+        max-width: 385px;
+        margin-top: 13%;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    .Footer2 {
+        width: 95%;
+        max-width: 385px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        justify-content: right;
+    }
+}
