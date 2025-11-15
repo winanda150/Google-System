@@ -19,7 +19,7 @@ For practice developing a website in the Front-End field.
 <p align="center">Desktop</p>
 
 <p align="center">
-    <img src="./Elemen%20Website/Mockup Destop.jpg" alt="Picture 2" width="500" />
+    <img src="./Elemen/Mockup Destop.jpg" alt="Picture 2" width="500" />
 </p>
 
 # Note
