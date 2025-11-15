@@ -355,7 +355,7 @@ html, body {
 .Logoerror2 p {
     color: #ffffff;
     margin-top: 1.4px;
-    margin-left: 5.9px;
+    margin-left: 5.7px;
     font-size: 11px;
     -webkit-user-select: none; /* Chrome, Safari, Opera */
     -moz-user-select: none;    /* Firefox */
@@ -765,4 +765,5 @@ html, body {
         box-sizing: border-box;
         justify-content: right;
     }
+
 }
